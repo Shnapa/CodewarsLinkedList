@@ -6,7 +6,7 @@ class Node:
 def swap_pairs(head):
     if not head or not head.next:
         return head
-    new_head = head.next
+    new = head.next
     while head and head.next:
         first = head
         second = head.next
@@ -15,4 +15,4 @@ def swap_pairs(head):
         if first.next and first.next.next:
             first.next = first.next.next
         head = first.next
-    return new_head
+    return new
