@@ -1,3 +1,6 @@
+"""
+Get the loop module
+"""
 def loop_size(node):
     slow = node
     fast = node
