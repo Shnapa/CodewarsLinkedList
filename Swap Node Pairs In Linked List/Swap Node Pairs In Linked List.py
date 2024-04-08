@@ -1,3 +1,6 @@
+"""
+Swap Node pairs module
+"""
 class Node:
     def __init__(self, data, next=None):
         self.data = data
